@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+
+  <body>
+    <!-- yang bukan berupa text adalah foto, video, gambar, nusik dll. -->
+    <form>
+      Nama Depan : <input type="text"><br>
+      Nama Belakang : <input type="text"><br>
+      Password : <input type="password"><br>
+
+      <h4>WNI Jepang</h4>
+      <input type="radio" name="WNI" value="ya"><label for="ya">ya</label>
+      <input type="radio" name="WNI" value="tidak"><label for="tidak">tidak</label>
+      <br>
+
+      <h2>Musik Favorit (Checkbox)</h2>
+      <input type="checkbox" name="Musik" value="Dangdut"><label for="Dangdut">Dangdut</label>
+      <input type="checkbox" name="Musik" value="Jazz"><label for="Jazz">Jazz</label>
+      <br>
+
+      <h2>Dropdown List</h2>
+      <select name="Pekerjaan">
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="IT Programmer">IT Programmer</option>
+            <option value="IT Support">IT Support</option>
+            <option value="Guru">Guru</option>
+            <option value="Operator">Operator</option>
+            <option value="Admin">Admin</option>
+            <option value="Digital Telemarketing">Digital Telemarketing</option>
+      </select>
+
+      <h2>Upload File</h2>
+      <input type="file" name="foto" value="Upload_file">
+
+      <input type="button" name="submit" value="submit">
+    </form>
+  </body>
+</html>
